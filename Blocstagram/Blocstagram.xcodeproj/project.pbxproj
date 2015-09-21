@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA13FF731BAFC1710092CDB5 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = FA13FF721BAFC1710092CDB5 /* User.m */; settings = {ASSET_TAGS = (); }; };
+		FA13FF761BAFC2510092CDB5 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = FA13FF751BAFC2510092CDB5 /* Media.m */; settings = {ASSET_TAGS = (); }; };
+		FA13FF791BAFC3890092CDB5 /* Comment.m in Sources */ = {isa = PBXBuildFile; fileRef = FA13FF781BAFC3890092CDB5 /* Comment.m */; settings = {ASSET_TAGS = (); }; };
+		FA13FF7C1BAFC4690092CDB5 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FA13FF7B1BAFC4690092CDB5 /* DataSource.m */; settings = {ASSET_TAGS = (); }; };
 		FAEE5E451B9D0F24002CA232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEE5E441B9D0F24002CA232 /* main.m */; };
 		FAEE5E481B9D0F24002CA232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEE5E471B9D0F24002CA232 /* AppDelegate.m */; };
 		FAEE5E4E1B9D0F24002CA232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEE5E4C1B9D0F24002CA232 /* Main.storyboard */; };
@@ -37,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA13FF711BAFC1710092CDB5 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		FA13FF721BAFC1710092CDB5 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		FA13FF741BAFC2510092CDB5 /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Media.h; sourceTree = "<group>"; };
+		FA13FF751BAFC2510092CDB5 /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Media.m; sourceTree = "<group>"; };
+		FA13FF771BAFC3890092CDB5 /* Comment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		FA13FF781BAFC3890092CDB5 /* Comment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Comment.m; sourceTree = "<group>"; };
+		FA13FF7A1BAFC4690092CDB5 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		FA13FF7B1BAFC4690092CDB5 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
 		FAEE5E3F1B9D0F24002CA232 /* Blocstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blocstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEE5E431B9D0F24002CA232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAEE5E441B9D0F24002CA232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -104,8 +116,16 @@
 				FAEE5E681B9D0F92002CA232 /* Images */,
 				FAEE5E461B9D0F24002CA232 /* AppDelegate.h */,
 				FAEE5E471B9D0F24002CA232 /* AppDelegate.m */,
+				FA13FF771BAFC3890092CDB5 /* Comment.h */,
+				FA13FF781BAFC3890092CDB5 /* Comment.m */,
+				FA13FF7A1BAFC4690092CDB5 /* DataSource.h */,
+				FA13FF7B1BAFC4690092CDB5 /* DataSource.m */,
 				FAEE5E7D1B9D10C6002CA232 /* ImagesTableTableViewController.h */,
 				FAEE5E7E1B9D10C6002CA232 /* ImagesTableTableViewController.m */,
+				FA13FF741BAFC2510092CDB5 /* Media.h */,
+				FA13FF751BAFC2510092CDB5 /* Media.m */,
+				FA13FF711BAFC1710092CDB5 /* User.h */,
+				FA13FF721BAFC1710092CDB5 /* User.m */,
 				FAEE5E4C1B9D0F24002CA232 /* Main.storyboard */,
 				FAEE5E4F1B9D0F24002CA232 /* Images.xcassets */,
 				FAEE5E511B9D0F24002CA232 /* LaunchScreen.xib */,
@@ -267,7 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA13FF731BAFC1710092CDB5 /* User.m in Sources */,
+				FA13FF791BAFC3890092CDB5 /* Comment.m in Sources */,
+				FA13FF761BAFC2510092CDB5 /* Media.m in Sources */,
 				FAEE5E7F1B9D10C6002CA232 /* ImagesTableTableViewController.m in Sources */,
+				FA13FF7C1BAFC4690092CDB5 /* DataSource.m in Sources */,
 				FAEE5E481B9D0F24002CA232 /* AppDelegate.m in Sources */,
 				FAEE5E451B9D0F24002CA232 /* main.m in Sources */,
 			);
@@ -466,6 +490,7 @@
 				FAEE5E641B9D0F24002CA232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAEE5E651B9D0F24002CA232 /* Build configuration list for PBXNativeTarget "BlocstagramTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +499,7 @@
 				FAEE5E671B9D0F24002CA232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
